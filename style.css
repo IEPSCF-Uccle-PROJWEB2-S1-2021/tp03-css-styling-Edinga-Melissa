@@ -68,6 +68,7 @@ h2,nav{
   font-size: 3em;
 }
 
+
 aside ul,ol,p,section ul {
    font-size: 2em;
 }
@@ -84,11 +85,12 @@ header{
 
 section h2+p{
   text-indent: 20px;
-}
+} /* Car selon l'affiche en exemple, ce n'est que la premiere ligne de chaque premier p de h2 dans section qui est indentée */
 
 /*section p::first-line{
   text-indent: 20px;
-} */
+}*/
+
 
 a:link{
   color: #e59866;
@@ -114,10 +116,16 @@ a:active{
   color:  #6e2c00;
 }
 
-section h2 + p a:after{
-  content: url(external-link-52.png );
 
+section a[href*="https"]{
+  background-image: url(external-link-52.png);
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: 1em;
+  padding-right: 0.7em;
+  padding-top: 0.1em;
 }
+
 
 section ul, aside ul{
   list-style-type: square;
@@ -125,6 +133,11 @@ section ul, aside ul{
 
 ol{
   list-style-type: lower-alpha;
+}
+
+nav{
+  padding-top: 0%;
+  padding-left: 0%;
 }
 
 
@@ -144,5 +157,5 @@ nav ul li{
   text-align: center;
   margin: 20px;
   padding: 20px;
-  width: 240px;
+  width: 200px;
 }

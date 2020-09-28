@@ -42,7 +42,7 @@ Vous trouverez des réponses à vos questions en consultant les liens suivants :
 * [OK] Faites en sorte que les liens soient soulignés par défaut, mais lorsque vous les survolez ou qu'ils reçoivent le focus, le soulignement disparait.
 * [OK] Supprimez la bordure pointillée que les liens ont par défaut lorsqu'ils reçoivent le focus pour TOUS les liens.
 * [OK] Donnez à l'état `active` un style sensiblement différent pour qu'il se démarque bien, mais faites en sorte qu'il s'intègre toujours dans le design global de la page.
-* [PRESQUE] Faites en sorte que l'icône de lien externe (les liens dont `href` commence par `http`) soit insérée à côté des liens externes.
+* [OK] Faites en sorte que l'icône de lien externe (les liens dont `href` commence par `http`) soit insérée à côté des liens externes.
 
 ### Listes
 
@@ -51,7 +51,7 @@ Vous trouverez des réponses à vos questions en consultant les liens suivants :
 
 ### Menu de navigation
 
-* [A_VERIFIER] Donnez à votre menu de navigation un style qui convient à l'aspect et à la la convivialité de la page.
+* [OK] Donnez à votre menu de navigation un style qui convient à l'aspect et à la la convivialité de la page.
 
 ## Trucs et astuces
 
