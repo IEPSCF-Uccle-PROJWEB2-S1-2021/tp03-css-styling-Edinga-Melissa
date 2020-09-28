@@ -82,9 +82,13 @@ header{
   text-align: center;
 }
 
-section p::first-line{
+section h2+p{
   text-indent: 20px;
 }
+
+/*section p::first-line{
+  text-indent: 20px;
+} */
 
 a:link{
   color: #e59866;
